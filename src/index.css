@@ -1,0 +1,108 @@
+*{
+  margin:0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+h1{
+  display: block;
+  background-color:rgba(30, 0, 255, 0.8);
+  color:beige;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 30px;
+
+}
+
+#adduser{
+  background-color: rgba(248, 5, 5, 0.963);
+  border: none;
+  border-radius: 5px;
+  margin: 20px 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  color:white;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+}
+
+
+
+button{
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+  height: 40px;
+  width: 100px;
+  margin: 20px 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  color:white;
+
+}
+
+button:active{
+  transform: scale(0.96);
+  
+}
+
+.add{
+  display: flex;
+  justify-content: right;
+}
+
+
+.table{
+  display:flex;
+  justify-content: center;
+  width:100vw;
+  
+}
+
+.table table{
+  border-collapse: collapse;
+
+}
+
+.table th{
+  background-color: rgba(30, 0, 255, 0.8);
+  border: 1px solid black;
+  padding:10px 20px;
+  
+  color:white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.table td{
+  border: 1px solid black;
+  text-align: center;
+  padding:10px;
+  
+}
+
+.table #edit{
+    background-color: red;
+    display: inline-block;
+    margin-bottom: 20px ;
+    margin-left: 10px;
+
+}
+
+.table #delete{
+  background-color: green;
+  display: inline-block;
+  margin-bottom: 20px ;
+  
+}
+
+h2{
+  text-align: center;
+  padding: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
